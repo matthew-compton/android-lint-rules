@@ -20,12 +20,12 @@ dependencies {
 }
 
 jar {
-  baseName 'com.getbase.lint'
+  baseName 'com.ambergleam.lint'
   version '1.0'
 
   manifest {
     attributes 'Manifest-Version': 1.0
-    attributes 'Lint-Registry': 'com.getbase.lint.CustomIssueRegistry'
+    attributes 'Lint-Registry': 'com.ambergleam.lint.CustomIssueRegistry'
   }
 }
 
